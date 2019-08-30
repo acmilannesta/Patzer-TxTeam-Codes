@@ -15,7 +15,7 @@ data_plot = subset(data, !is.na(pm2.5)) %>%
   mutate(time = as.Date(paste(year, '-', month, '-1', sep=''), '%Y-%m-%d')) %>%
   arrange(time)
 
-#whole time period in one plot
+#whole time period in one plot (gganimate1.gif)
 p= ggplot(data_plot, aes(x = time, y=m))+
     geom_line(size=0.8)+
     geom_errorbar(aes(ymin = m-sd, ymax= m+sd, group=seq_along(time)), width=15,  size=0.8)+
@@ -31,9 +31,9 @@ p= ggplot(data_plot, aes(x = time, y=m))+
 p
 
 q= p+transition_reveal(time)
-animate(q, width=2000, height=800, duration=15, renderer = gifski_renderer('test1.gif'))
+animate(q, width=2000, height=800, duration=15, renderer = gifski_renderer('gganimate1.gif'))
 
-#whole time period in facet grid
+#whole time period in facet grid (gganimate2.gif)
 p= ggplot(data_plot, aes(x = month, y=m))+
   geom_line(size=0.8)+
   geom_errorbar(aes(ymin = m-sd, ymax= m+sd, group=seq_along(month)), width=0.2, position = position_dodge(.9))+
@@ -50,6 +50,6 @@ p= ggplot(data_plot, aes(x = month, y=m))+
 p
 
 q= p+transition_reveal(month)
-animate(q, width=2000, height=800, renderer = gifski_renderer('test2.gif'))
+animate(q, width=2000, height=800, renderer = gifski_renderer('gganimate2.gif'))
 
 
