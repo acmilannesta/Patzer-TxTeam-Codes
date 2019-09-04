@@ -32,7 +32,8 @@ Current covered topics include:
 3. committ new file
 
 ## How to access this repository
-For windows
-1. Install git (https://git-scm.com/)
+1. Install git 
+<br  />Windows: https://git-scm.com/download/win
+<br  />MAC: https://git-scm.com/download/mac
 2. Make sure you add git to your environmental variable
 3. Open command windown and type: git clone https://github.com/acmilannesta/Patzer-TxTeam-Codes <local path to save the repository>
