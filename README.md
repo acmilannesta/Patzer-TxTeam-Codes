@@ -32,7 +32,7 @@ Current covered topics include:
 3. committ new file
 
 ## How to access this repository
-For windowns
+For windows
 1. Install git (https://git-scm.com/)
 2. Make sure you add git to your environmental variable
 3. Open command windown and type: git clone https://github.com/acmilannesta/Patzer-TxTeam-Codes <local path to save the repository>
