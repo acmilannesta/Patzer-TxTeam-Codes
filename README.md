@@ -1,4 +1,4 @@
-# Patzer-TxTeam-Codes
+# Programming Codes Repository
 This is the repository for sharing programming codes (mainly in SAS, R or Python) for statistical analysis.
 You are more than welcome to add your code to the repository. 
 
