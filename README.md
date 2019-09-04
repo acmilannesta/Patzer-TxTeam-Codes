@@ -4,10 +4,10 @@ You are more than welcome to add your code to the repository.
 
 Current covered topics include:
 1. Survival analysis
-1.1 Cox PH regression
-1.2 Cumulative incidence curve
-1.3 Competing risk moel (Fine & Gray model, SIPW Cox model, etc.)
-1.4 Adjusted survival curves
+1.1. Cox PH regression
+1.2. Cumulative incidence curve
+1.3. Competing risk moel (Fine & Gray model, SIPW Cox model, etc.)
+1.4. Adjusted survival curves
 2. Generalized Linear model
 2.1 Check linear assumptions
 2.2 Generalize linear model examples
